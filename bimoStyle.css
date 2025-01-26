@@ -1,0 +1,40 @@
+:root {
+    --fi-color: #333 ;
+    --sc-color: rgba(150, 0, 0, 0.863) ;
+}
+body {
+    background-color: var(--fi-color);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+h1 {
+    color: white;
+}
+#response {
+    border: 2px solid white;
+    width: 30%;
+    height: 300px;
+    margin: 10px;
+}
+input {
+    border: none;
+    color: var(--fi-color);
+    padding: 10px;
+    border-radius: 10px; 
+    font-weight: 900;
+}
+::placeholder {
+    font-weight: bold;
+}
+#sendButton {
+    color: var(--fi-color);
+    padding: 10px;
+    font-weight: 900;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+#sendButton:hover {
+    background-color: #eeeeeeab;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#213165">
+    <title>Sphinx | Welcome</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<header>
+    <h1 class="f-h1">welcome to</h1>
+    <img class="f-icon-img" src="imgs/sphinx  png.png" alt="sphinximg">
+</header>
+    <section>
+        <center>
+            <div id="welcome-section">
+                <label for="username">inter your name:</label>
+                <center><form><input type="text" id="username" placeholder="your name" required></form></center>
+                <button onclick="storeUsername()">Ok</button>
+            </div>        
+            <div id="welcome-message" style="display: none; color: #213165; font-size: 60px;">
+                <h2 class="HelloMessage">Hello <span id="display-username"></span>!</h2>
+                <p class="welcomMessage">Welcome in Sphinx</p>
+                <a href="first.html"><button id="startButton">GET STARTED</button></a>
+            </div>
+        </center>
+        <script src="JS/main.js"></script>
+        <script src="JS/script.js"></script>
+</body>
+</html>

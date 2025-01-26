@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+        <!-- developed by zeyad zaran (: 'o' ^[]^ *+* -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <img class="f-icon-img" src="imgs/sphinx  png.png" alt="sphinximg">
+    <h1>Welcome to Web Development</h1>
+    <nav>
+        <ul>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#Contact Us">Contact Us</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="services">
+    <h2>Services</h2>
+    <div class="service">
+        <img src="https://media.istockphoto.com/id/1305999733/photo/web-design-desktop.webp?a=1&b=1&s=612x612&w=0&k=20&c=pCBVisEOGGpCVWmaRY0d0eTsO4wmVFi_9LyykwmGGT8=" alt="web design">
+        <h3>Website Design</h3>
+        <p>We offer professional website design services tailored to your needs.</p>
+    </div>
+    <div class="service">
+        <img src="https://media.istockphoto.com/id/1093434430/photo/hands-sketching-of-screens-for-mobile-responsive-website-development-with-ui-ux-developing.webp?a=1&b=1&s=612x612&w=0&k=20&c=zpx7s4-eXoSXnGUUUYJAOHDYeRN-aZAJ-2zhCqOcmYc=" alt="app development">
+        <h3>App Development</h3>
+        <p>We help you develop custom applications for your business.</p>
+    </div>
+</section>
+
+<section id="Contact Us">
+    <h2>Contact Us</h2>
+    <div class="project">
+        <center>
+            <form
+            action="https://formspree.io/f/mpwqqrav"
+            method="POST"
+            >           
+            <div class="i">
+                    <img src="imgs/sphinximg.jpg" alt="shopping cart" width="70px" height="70px">
+                </div>
+                <label>User Name</label>
+                <input class="one" type="text" name="name" placeholder="inter your name" required>
+                <small class="error-message"></small>
+    
+                <label>Number Phone</label>
+                <input type="number" name="number phone" placeholder="inter your number phone" required>
+                <small class="error-message"></small>
+    
+                <label>E-mail</label>
+                <input name="email" name="email" type="email" placeholder="inter your E-mail" >
+    
+                <label>Busines Name</label>
+                <input type="text" name="busines name" placeholder="inter your busines name" required>
+                <small class="error-message"></small>
+
+                <label>Type your Busines</label>
+                <input type="text" name="type" placeholder="inter type your busines " required>
+                <small class="error-message"></small>
+    
+                <input class="su" type="submit" value="Send">
+            </form>
+            <p id="formMessage" class="form-message"></p>
+        </center>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 All Rights Reserved developer: Zeyad Zahran</p>
+    <p style="font-family: cursive;">Sphinx</p></footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="JS/main.js"></script>
+    <script src="JS/script.js"></script>
+</body>
+</html>
